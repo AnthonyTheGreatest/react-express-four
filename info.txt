@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=w3vs4a03y3I
+
++ client, server folders, .gitignore(node_modules)
+
+=> => => server folder
+
+Initialize npm project
+Install express
+Install nodemon as devDependency.
+/package.json
++ "type": "module"
+/"scripts"
++ "start": "node index"
++ "dev": "nodemon index"
+---
++ index.js (package.json/"main")
+...
+npm run dev
+(localhost:5000/api)
+
+
+
+=> => => client folder
+
+npx create-react-app .
+/package.json
++ "proxy": "http://localhost:5000"
+/App.css, App.js => delete content
+/App.js
+rfce
+...
+npm start
+(localhost:3000)
